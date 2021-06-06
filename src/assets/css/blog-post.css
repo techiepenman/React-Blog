@@ -1,0 +1,51 @@
+.container {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "hd"
+    "nav"
+    "feat"
+    "post"
+    "post"
+    "post"
+    "post"
+    "post"
+    "post"
+    "sd"
+    "ft";
+}
+
+@media (min-width: 1101px) {
+  .container {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "hd hd hd hd hd hd"
+      "nav nav nav nav sd sd"
+      "feat feat feat feat sd sd "
+      "post post post post sd sd"
+      "post post post post sd sd"
+      "post post post post sd sd"
+      "ft ft ft ft ft ft";
+  }
+}
+
+.post {
+  display: grid;
+  grid-area: post;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "post-1 post-2 post-3"
+    "post-4 post-5 post-6";
+}
+
+.featured {
+  display: flex;
+  flex-direction: row;
+  grid-area: feat;
+}

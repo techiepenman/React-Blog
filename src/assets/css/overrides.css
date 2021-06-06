@@ -1,0 +1,97 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a:link {
+  color: #454f58;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a4e4f5 !important;
+}
+
+a:visited {
+  color: #96a0aa;
+}
+
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h5#card {
+  color: #2e3d49;
+  margin: 5px 0 5px 0;
+}
+
+hr {
+  border: dotted #e5eff5 4px;
+  border-bottom: none;
+  width: 25%;
+}
+hr#post {
+  border: dotted#f9f9fa 4px;
+  border-bottom: none;
+  width: 25%;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 2em;
+}
+
+ul#side {
+  background-color: #f9f9fa;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  display: block;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #53cbed;
+  padding: 12px 20px;
+  border: none;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #017a9b;
+}
+
+input:focus {
+  outline: none !important;
+  border-color: #53cbed;
+  box-shadow: 0 0 10px #53cbed;
+}
+
+img#avatar {
+  float: left;
+  border-radius: 50%;
+  width: 50px;
+  height: auto;
+  padding: 5px;
+}
+img#avatar:hover {
+  box-shadow: 0 0 10px #53cbed;
+  cursor: pointer;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  background-color: #e5eff5;
+  padding: 2px;
+  color: #2e3d49;
+  font-style: italic;
+  font-size: 0.75em;
+}

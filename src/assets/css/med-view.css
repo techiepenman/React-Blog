@@ -1,0 +1,40 @@
+/* Medium size screen */
+@media (min-width: 700px) and (max-width: 1100px) {
+  .container {
+      display: grid;
+      gap: 2px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas:
+          "hd hd"
+          "nav nav"
+          "feat feat"
+          "post post"
+          "post post"
+          "post post"
+          "sd sd"
+          "ft ft";
+  }
+
+  .post {
+      display: grid;
+      grid-area: post;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas:
+          "post-1 post-2"
+          "post-3 post-4"
+          "post-5 post-6";
+  }
+
+  .featured {
+      display: flex;
+      flex-direction: row;
+      grid-area: feat;
+  }
+
+  .sidebar {
+      display: grid;
+      grid-area: sd;
+      text-align: left;
+  }
+}
