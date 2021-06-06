@@ -1,8 +1,8 @@
 @import "overrides.css";
 @import "med-view.css";
 @import "lg-view.css";
-/* 
-.container {
+
+/* .container {
     display: grid;
     gap: 5px;
     grid-template-columns: 100%;
