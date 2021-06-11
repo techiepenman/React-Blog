@@ -2,10 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { App, Article_One } from "./App";
-import "./assets/css/styles.css";
-import "./assets/css/lg-view.css";
-import "./assets/css/med-view.css";
-import "./assets/css/overrides.css";
+
+// import "./assets/css/styles.css";
+// import "./assets/css/lg-view.css";
+// import "./assets/css/med-view.css";
+// import "./assets/css/overrides.css";
 
 ReactDOM.render(
   <Router>

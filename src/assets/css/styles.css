@@ -2,7 +2,8 @@
 @import "med-view.css";
 @import "lg-view.css";
 
-/* .container {
+@media (min-width: 320px) and (max-width: 699px) {
+.container {
     display: grid;
     gap: 5px;
     grid-template-columns: 100%;
@@ -19,8 +20,8 @@
         "post"
         "sd"
         "ft";
-} */
-
+}
+}
 /* Header classes */
 .header {
     grid-area: hd;
